@@ -1,0 +1,25 @@
+{
+  "name": "is-tar",
+  "version": "1.0.0",
+  "description": "NodeJS utility funcion for checking if a specific path/file name has a valid tar extension",
+  "entry": "dist/is-tar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/examples/basic.ts --quiet",
+    "debug": "tsc & "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/assembly-guy/is-tar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/assembly-guy/is-tar/issues"
+  },
+  "homepage": "https://github.com/assembly-guy/is-tar#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "tslint": "^6.1.3"
+  }
+}
