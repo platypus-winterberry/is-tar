@@ -5,7 +5,6 @@
   "entry": "dist/is-tar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon ./src/examples/basic.ts --quiet",
     "debug": "tsc & "
   },
   "repository": {
