@@ -27,23 +27,19 @@ $ git clone
 `
 ## Usage
 ---
-```
-isTar(string value,bool strictMode)
+```javascript
+import { isTar } from  'is-tar';
+
+const validFileName     = isTar("fds.tar.gz");                          // true
+const invalidFileName   = isTar("fds.tar.gz", true);                    // false
+const validExtension    = isTar(".tar.gz");                             // true
 
 ```
 
 ### Options
 
 ```typescript
-enum FileTypes = {}
-enum AcceptedValues {
-    FILE = 'f'
-    PATH = 'p'
-    EXTENSION = 'e'
-    
-}
-
-type isTar = (value: string, flags: FLAGS)
+type isTar = (value: string, checkExtensionOnly: boolean)
 
 ```
 
