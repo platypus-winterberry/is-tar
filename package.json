@@ -1,6 +1,6 @@
 {
   "name": "validator-is-tar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS utility funcion for checking if a specific path/file name has a valid tar extension",
   "entry": "dist/is-tar.js",
   "scripts": {
