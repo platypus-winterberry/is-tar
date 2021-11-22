@@ -18,7 +18,7 @@ $ npm install is-tar
 Browser
 
 `
-    <script src="cdn_url"></script>
+    <script src="https://unpkg.com/validator-is-tar@1.0.11/dist/is-tar.js"></script>
 `
 
 Javascript
@@ -36,7 +36,7 @@ type isTar = (value: string, checkExtensionOnly?: boolean = false)
 ## Usage
 ---
 ```javascript
-import { isTar } from  'is-tar';
+import { isTar } from  'is-tar'; // Skip this if you imported from unpkg
 
 const validFileName     = isTar("fds.tar.gz");
 // true
